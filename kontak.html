@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak - Literasi Bertauhid</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <img src="logo.png" alt="Logo ELSA">
+                <h1>Literasi Bertauhid</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="artikel.html">Artikel</a></li>
+                    <li><a href="kegiatan.html">Kegiatan</a></li>
+                    <li><a href="buku.html">Buku Rekomendasi</a></li>
+                    <li><a href="tentang.html">Tentang Kami</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="kontak">
+            <div class="container">
+                <h2>Hubungi Kami</h2>
+                <p>Jika Anda memiliki pertanyaan atau ingin berkomunikasi dengan kami, silakan hubungi kami melalui formulir atau melalui kontak di bawah ini: </p>
+                <div class="kontak-info">
+                    <div>
+                        <h3>Alamat Kantor</h3>
+                        <p>Jl. Tol Jagorawi No.1, Ciawi, Kec. Ciawi, Kabupaten Bogor, Jawa Barat 16720</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.9382740059978!2d106.84719621060664!3d-6.654573165026385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c95387c8d3eb%3A0x941f12ea770a2c9e!2sUniversitas%20Djuanda!5e0!3m2!1sid!2sid!4v1718960329978!5m2!1sid!2sid" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div>
+                        <h3>Email</h3>
+                        <p> <a href="alhafidz.almagribi409@gmail.com">elsa@company.co.id</a></p>
+                    </div>
+                    <div>
+                        <h3>Telepon</h3>
+                        <p>0856-7730-001</p>
+                    </div>
+                </div>
+                <form id="contact-form" method="post" action="send.php">
+                    <h3>Kirim Pesan</h3>
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Literasi Bertauhid. All rights reserved.</p>
+        </div>
+    </footer>   
+</body>
+</html>

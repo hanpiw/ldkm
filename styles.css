@@ -1,0 +1,224 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background: rgb(10, 105, 26);
+  color: #fff;
+  padding: 10px 0;
+}
+
+header #logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+header #logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+
+}
+
+header nav ul {
+  list-style-type: none;
+  text-align: right;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+header nav ul li a {
+  color:#fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  background-color: rgb(24, 66, 29);
+  border-radius: 5px;
+}
+
+header nav ul li a:hover {
+  background-color: rgb(60, 155, 85);
+}
+
+main {
+  padding: 20px 0;
+}
+
+section {
+  padding: 40px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* Button Style */
+.btn {
+  display: inline-block;
+  background-color: rgb(10, 105, 26);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgb(59, 211, 102);
+}
+
+/* Artikel Section */
+.artikel-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.artikel {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: calc(50% - 20px);
+}
+
+.artikel h3 {
+  margin-bottom: 10px;
+}
+
+.artikel p {
+  color: #666;
+}
+
+.artikel a {
+  display: inline-block;
+  background-color: rgb(10, 105, 26);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.artikel a:hover {
+  background-color: #555;
+}
+
+/* Kegiatan Section */
+.kegiatan-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.kegiatan {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  width: calc(50% - 20px);
+}
+
+.kegiatan h3 {
+  margin-bottom: 10px;
+}
+
+.kegiatan p {
+  color: #666;
+}
+
+.kegiatan a {
+  display: inline-block;
+  background-color: rgb(10, 105, 26);
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.kegiatan a:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+body {
+  display: grid; /* Atau flex */
+  grid-template-rows: auto 1fr auto; /* Header, konten, footer */
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  grid-row: 2; /* Konten berada di baris kedua */
+}
+
+footer {
+  grid-row: 3; /* Footer berada di baris ketiga */
+  background-color: rgb(10, 105, 26);
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: rgb(10, 105, 26);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #555;
+}
